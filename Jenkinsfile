@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('evennumbers'){
 			steps{
-				sh 'python3 evennumbers.py'
+				bat 'start cmd.exe python3 evennumbers.py'
 			}
 		}
 	}
